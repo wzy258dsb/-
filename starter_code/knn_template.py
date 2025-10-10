@@ -66,7 +66,9 @@ def datingClassTest():
 
 def classify0(inX, dataSet, labels, k):
    #KNN分类核心代码
-
+    dataSetSize=daaSet.shape[0]
+    diffMat=tile(inX,(dataSetSize,1))-dataSet
+    sqDiffMat=diffMat
 def classify_person():
     """
     交互式输入三项特征，使用约会数据集做 KNN 分类，并输出印象结果。
